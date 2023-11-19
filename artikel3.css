@@ -1,0 +1,103 @@
+:root {
+    --primary: #F08080;
+    --bg: pink;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'fredoka', sans-serif;
+    background-color: var(--bg);
+    color: #fff;
+  }
+  
+  /* Navbar buat warna menu juga*/
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: palevioletred ;
+    border-bottom: 1px solid palevioletred;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  .navbar .navbar-logo  {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 30px;
+    text-align: center;
+  }
+  
+  .navbar .navbar-logo span {
+    color: rgb(218, 88, 88);
+  }
+
+  /*Artikel Section*/
+  .artikel {
+    padding: 10rem 7% 1rem;
+  }
+  
+  .artikel h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+  }
+
+  .artikel h2 span {
+    color: var(--primary);
+  }
+  
+  .artikel .container  {
+    border: 5px dotted white;
+    border-radius: 8px;
+    background-color: #f8a3b1;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+
+  .artikel .content h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1rem;
+    color: rgb(201, 59, 59);
+  }
+  
+  .artikel .content p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    color: crimson;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1rem 0 3rem;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 1.4rem 7%;
+    
+  }
